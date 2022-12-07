@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "6s1qbAZAY2yYjt3v",
+    "password": "NOTMYREALPASSWORD",
+    "database": "mymaria_db",
+    "host": "mymariadb-yfw1f-mariadb.mymariadb-yfw1f.svc.cluster.local",
+    "dialect": "mariadb"
+  },
+  "test": {
+    "username": "6s1qbAZAY2yYjt3v",
+    "password": "NOTMYREALPASSWORD",
+    "database": "phomymaria_dbtos",
+    "host": "mymariadb-yfw1f-mariadb.mymariadb-yfw1f.svc.cluster.local",
+    "dialect": "mariadb"
+  },
+  "production": {
+    "username": "6s1qbAZAY2yYjt3v",
+    "password": "NOTMYREALPASSWORD",
+    "database": "mymaria_db",
+    "host": "mymariadb-yfw1f-mariadb.mymariadb-yfw1f.svc.cluster.local",
+    "dialect": "mariadb"
+  }
+}
