@@ -1,0 +1,34 @@
+<%- include('partials/header'); -%>
+<body class="is-preload">
+  <%- include('partials/navbar'); %>
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Header -->
+    <header id="header">
+      <h1>
+        <a href="index.html"><strong>Multiverse</strong> by HTML5 UP</a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+      <% for(let i=0; i < data.length; i++){ %>
+        <article class="thumb">
+          <a href="./images/<%= data[i].dataValues.mediaLocation %>" class="image"
+            ><img src="./images/<%= data[i].dataValues.mediaLocation %>" alt="<%= data[i].dataValues.title %>"
+          /></a>
+          <h2><%= data[i].dataValues.title %></h2>
+          <p> 🎙 Read or Add 
+            <a href="/comments/<%= data[i].dataValues.id %>">Comments</a>
+          </p>
+        </article>
+      <% } %>
+    </div>
+    <%- include('partials/footer'); -%>
+  </div>
+</body>

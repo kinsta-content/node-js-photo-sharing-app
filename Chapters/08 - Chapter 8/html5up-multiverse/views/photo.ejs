@@ -1,0 +1,25 @@
+<%- include('partials/header'); %>
+  <%- include('partials/navbar'); %>
+</body>
+  <!-- Main -->
+  <div class="container">
+    <form action="/images" method="POST" enctype="multipart/form-data">
+      <div class="control-group">
+        <div class="form-group floating-label-form-group controls">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title" name="title" required/>
+        </div>
+        <br />
+        <div class="form-group floating-label-form-group controls">
+          <label for="photo">Image</label>
+          <input type="file" class="form-control" id="photo" name="photo" accept="image/jpeg, image/jpg, image/png, image/gif" required/>
+        </div>
+        <br />
+        <div class="form-group">
+          <button type="submit" class btn btn-primary id="sendMessaageButton">
+            Upload
+          </button>
+        </div>
+  </div>
+
+<%-include('partials/footer'); %>

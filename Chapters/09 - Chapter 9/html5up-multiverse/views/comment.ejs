@@ -1,0 +1,41 @@
+<%- include('partials/header'); %>
+  <%- include('partials/navbar'); %>
+    </body>
+    <div class="container fluid">
+      <div class="row">
+        <div class="col col-4 mt-3">
+          <h1>
+            <%= photo[0].dataValues.title %>
+          </h1>
+          <img src="./images/<%=photo[0].dataValues.mediaLocation %>">
+        </div>
+        <div class="col col-4 mt-3">
+
+          <ul>
+            <% for ( var i=0; i <comment.length; i++){ %>
+              <li>
+                <%= comment[i].dataValues.content%>
+              </li>
+              <%}%>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Comment</h1>
+      <form action="/comments<%=requestURL%>" method="POST" enctype="application/json">
+        <div class="control-group">
+          <div class="form-group floating-label-form-group controls">
+            <label for="comment">Comment</label>
+            <input type="text" class="form-control" id="comment" name="comment" />
+          </div>
+          <br />
+          <div class="form-group">
+            <button type="submit" class btn btn-primary id="sendMessaageButton">
+              Submit
+            </button>
+          </div>
+        </div>
+
+
+        <%-include('partials/footer'); %>

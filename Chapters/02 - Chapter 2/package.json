@@ -1,0 +1,14 @@
+{
+  "name": "chapter-2",
+  "version": "1.0.0",
+  "description": "There are a lot of Javascript developers, if you aren't already check out the javascript community on twitter - just search #javascript. With that being said, those javascript developer are always creating new custom modules and they post them for anyone to use in the Node Package Manager or npm for short. You can view these packages on npmjs.com and you can find a module that would be a great fit for your use case.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
