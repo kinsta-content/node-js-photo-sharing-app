@@ -8,7 +8,7 @@ To install it we first must initialize our project which will create a file call
 
 ---
 
-# 2.2 Initializing our project
+# 2.2 Initializing Our Project
 
 Creating a package.json file can be done manually or using the <kbd>npm init</kbd> command and following the prompts. This is often referred to as "initializing a project". I prefer the easier route.
 
@@ -112,7 +112,7 @@ This will automatically install all the dependencies listed in the package.json 
 
 ---
 
-# 2.4 What is express?
+# 2.4 What Is Express?
 
 Before we get too far ahead of ourselves, you are probably wondering 'what is express and why do I care?'. 
 
@@ -130,7 +130,7 @@ const express = require("express");
 
 ---
 
-# 2.5 How does Express make my life easier?
+# 2.5 How Does Express Make My Life Easier?
 
 Let's repeat what we have previously done but in the express way.
 
@@ -171,9 +171,9 @@ When you open up your browser you will see
 
 ![https://p289.p2.n0.cdn.getcloudapp.com/items/Kou15Yz1/67a7d316-1f97-4a46-8983-bf2dad97f3c0.jpg?v=73f1cdaf87ea3e0eca67b71b7ad03964](https://p289.p2.n0.cdn.getcloudapp.com/items/Kou15Yz1/67a7d316-1f97-4a46-8983-bf2dad97f3c0.jpg?v=73f1cdaf87ea3e0eca67b71b7ad03964)
 
-# 2.6 Breaking it down
+# 2.6 Breaking It Down
 
-In the previous video you could see that express did a lot of operations for us to respond better to browser requests. JSON for example, was built in, this allows us to build APIs quickly with node.js and Express.
+In the previous video you could see that express did a lot of operations for us to respond better to browser requests. JSON for example, was built in, this allows us to build APIs quickly with Node.js and Express.
 
 We can define routes and its response that our server will give when that route is hit.
 
@@ -221,7 +221,7 @@ This means if 2 requests come in at the same time, they can both be handled and 
 
 ---
 
-# 2.8 Serving Static Files with Express
+# 2.8 Serving Static Files With Express
 
 We have looked at how to handle requests made to routes we defined, now we should look at how to serve static files, that is, files that already exist on our server. For example images, CSS files, font files, JSON, JavaScript files, etc...
 
