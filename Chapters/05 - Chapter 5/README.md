@@ -70,7 +70,7 @@ Next, depending on your OS, run the installer and follow the prompts. Enter a di
 
 The purpose of the mysql_install_db program is to initialize the data directory, including the tables in the mysql system database. It does not overwrite existing MySQL privilege tables, and it does not affect any other data. To re-create your privilege tables, first stop the mysqld server if it is running
 
-Once that's done, you need to install the MariaDB connector for Node.js called sequalize, more on that in the next video.
+Once that's done, you need to install the MariaDB connector for Node.js called sequelize, more on that in the next video.
 
 ---
 
@@ -90,7 +90,7 @@ npx sequelize init
 On some machines you may have success with this instead:
 
 ```bash
-npm install sequelize sequalize-cli mariadb
+npm install sequelize sequelize-cli mariadb
 sequelize init
 ```
 
