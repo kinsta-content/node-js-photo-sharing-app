@@ -45,7 +45,7 @@ MariaDB can use several different configuration files. You can configure MariaDB
 
 Configuration files are searched in several locations, including in the user directory, and if present they all are read and used. They are read in a consistent order. These locations depend on the operating system. It is possible to tell MariaDB which files it should read.
 
-- On mac OS, by default, the configuration file is called `my.cnf`
+- On macOS, by default, the configuration file is called `my.cnf`
 - On Linux, the default is also `my.cnf`
 - On Windows, by default the configuration files can be called `my.ini` or `my.cnf`, `my.ini` is more common.
 
@@ -64,7 +64,7 @@ brew install mariadb
 brew services start mariadb 
 ```
 
-On mac you'll need to perform a few tasks to gain access to the database. Please see addendum section for more details! Link is below the video
+On Mac you'll need to perform a few tasks to gain access to the database. Please see Appendix 1 section for more details! Link is below the video
 
 Next, depending on your OS, run the installer and follow the prompts. Enter a difficult but memorable password when prompted to enter a new root password. If you are using Homebrew, you won't be prompted for anything.
 
