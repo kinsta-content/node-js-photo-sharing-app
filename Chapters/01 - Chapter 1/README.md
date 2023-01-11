@@ -1,4 +1,4 @@
-# 1.1 CHAPTER 1 - Node.JS
+# 1.1 CHAPTER 1 - Node.js
 
 Hello I'm Drew Karriker and I'm a nuclear engineer turned web developer and devops instructor. 
 
@@ -24,7 +24,7 @@ Some familiarity with command line basics is a plus but not necessary. You can g
 
 ---
 
-# 1.3 About the course
+# 1.3 About the Course
 
 This course will teach you everything you need to know to build a functional app with Node.js, Express, and Maria DB. We will then learn how to deploy it to kinsta. This application stack is known in the developer community as a MEEN stack or MySQL, Express, Nginx, and Node.js. Through the process you will sharpen your Javascript skillset and gain familiarity with one of my favorite deployment tools, kinsta application hosting. 
 
@@ -32,7 +32,7 @@ Don't forget to update your resume when we are all done!
 
 ---
 
-# 1.4 Node.JS
+# 1.4 Node.js
 
 Node.js is a very popular server-side framework.  Lots of companies are building applications with Node.js and you are going to learn a valuable skillset that will make you attrictive to companies like Wal-mart, PayPal, Ally Bank, Linkedin, Youtube, Amazon, Netflix, Reddit, and more. 
 
@@ -44,7 +44,7 @@ We will cover a bunch of topics like user authentication, data validation, async
 
 ---
 
-# 1.5 The app we are going to build
+# 1.5 The App We Are Going To Build
 
 We will build a photo sharing application that allows users to add photos and post comments after they have signed up with an account.
 
@@ -62,7 +62,7 @@ It has been my experience that when following a tutorial, it's best to follow it
 
 ---
 
-# 1.6 What is Node.js?
+# 1.6 What Is Node.js?
 
 Before we can understand what Node.js is. We should first learn what it isn't. It isn't a programming language. It's a tool.
 
@@ -87,7 +87,7 @@ What you need to know about the V8 Engine:
 
 ---
 
-# 1.7 Installing Node JS
+# 1.7 Installing Node.js
 
 Head over to download.nodejs.org. It should open an appropriate page for your specific computer type and download the LTS or "Long Term Support" version of Node JS.
 
@@ -101,7 +101,7 @@ brew install node.js
 
 ---
 
-# 1.8 Verify the installation
+# 1.8 Verify The Installation
 
 In your terminal or command prompt run the following command `node -v` or `node --version`. It should show you the version that is installed. This will be a proof that it is installed, otherwise you will get a response of "command not found"
 
@@ -156,7 +156,7 @@ In this case, we are listening on port 8080. It's common to store the port value
 
 ---
 
-# 1.10 Running our server
+# 1.10 Running Our Server
 
 
 To run our server simply run in a terminal or command prompt the following command (be sure you're in the correct directory):
@@ -179,7 +179,7 @@ We could use a series of if-else statements!
 
 ---
 
-# 1.11 If else statements
+# 1.11 If / Else Statements
 
 In your terminal, type the command `control` + `c`. This will cause `example_server.js` to stop running.
     
@@ -216,7 +216,7 @@ After the command runs, you can open your browser to http://localhost:8080/about
 
 ---
 
-# 1.12 What is "writeHead(404)"?
+# 1.12 What Is "writeHead(404)"?
 
 `writeHead` will provide the status code of a request - normally a status code of 200 is what we want, it means the server responded and it's good. A 404 means the requested resource wasn't found. So, we provide a response with a status code of 404 when you request a path we don't expressly provide (that is "/about", "/login", or "/logout")
 
@@ -226,7 +226,7 @@ At this point, let's turn off the server using the command `control` + `c`. You'
 
 ---
 
-# 1.13 Responding with HTML
+# 1.13 Responding With HTML
 
 We have been responding to requests up to this point with static text, but this is a course on how to build a web application that works in browsers - so we should probably use html, right? Right!
 
