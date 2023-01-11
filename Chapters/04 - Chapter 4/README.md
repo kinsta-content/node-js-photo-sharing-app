@@ -53,7 +53,7 @@ Partials are included like so
 
 # 4.4 EJS Syntax
 
-`EJS` or Embedded JavaScript templates, is a templating language that lets you generate HTML using plain javascript. No special syntax, just plain Javascript that outputs html.
+`EJS` or Embedded JavaScript Templates, is a templating language that lets you generate HTML using plain javascript. No special syntax, just plain Javascript that outputs html.
 
 ### Installing ejs
 
@@ -133,7 +133,7 @@ Additional Resources
 
 ---
 
-# 4.5 Introduction to Model-View-Controller (MVC) refactoring
+# 4.5 Introduction to Model-View-Controller (MVC) Refactoring
 
 MVC (Model-View-Controller) is a pattern in application development that emphasizes a separation between the software's business logic and display. This "separation of concerns" provides for a better division of labor and improved maintenance.
 
@@ -145,7 +145,7 @@ The three parts of the MVC software-design pattern can be described as follows:
   
 How to refactor our application using the MVC pattern is covered in our next video.
 
-# 4.6 Templating our project
+# 4.6 Templating Our Project
 
 1. Create a directory in the root of our project called "views". Inside of it create another directory called "partials".
 0. Inside the views directory add a file and name it index.ejs.
