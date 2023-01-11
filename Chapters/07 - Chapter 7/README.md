@@ -161,7 +161,7 @@ In the `UsersRouter.js` file, let's see if you can set it all by yourself! You g
 
 ---
 
-# 7.4 Special note on dumping the database
+# 7.4 Special Note on Dumping the Database
 
 On our `server.js` file, let's dump all tables by updating the sync() function. Edit this line of code. It should be line 21 if you have followed along perfectly. Right after `db.sequalize`.
 
