@@ -1,4 +1,4 @@
-![Photo of course instructor Drew Kerriker](https://user-images.githubusercontent.com/9747248/211648768-19d33c63-755a-4845-abdf-0c221e00396d.png)
+![Photo of course instructor Drew Kerriker](https://user-images.githubusercontent.com/9747248/211838929-cc775833-80fd-4512-a66c-80e332c03da4.png)
 
 # Hello!
 
