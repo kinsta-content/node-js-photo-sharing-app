@@ -1,10 +1,10 @@
-# 3.1 Starting our Photo Sharing Project
+# 3.1 Starting Our Photo Sharing Project
 
 Since this is not a course on frontend web design, we are going to take a shortcut and download a prebuilt HTML website template. Head over to https://html5up.net/multiverse and click download.
 
 This template looks pretty nice and will work for us. But it does use jQuery, which is a popular JavaScript library which is getting old. Its a bit of a legacy framework.
 
-I wouldn't recommend using jQuery on a new website project and I'd suggest you research alternative for an app running on your live production website. We're using this template to speed things along. We'll be able to focus on learning node.js and the backend development tasks.
+I wouldn't recommend using jQuery on a new website project and I'd suggest you research alternative for an app running on your live production website. We're using this template to speed things along. We'll be able to focus on learning Node.js and the backend development tasks.
 
 This template will be our basic starting point for our photo-sharing application.
 
@@ -43,7 +43,7 @@ Start the server by running
 node server.js
 ```
 
-# 3.2 Automatic Restart with Nodemon
+# 3.2 Automatic Restart With Nodemon
 
 What is Nodemon? Nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected. With nodemon, you do not need to manually stop and start the server when you make changes to your code.
 
@@ -75,7 +75,7 @@ with
 
 ---
 
-# 3.3 Setting our public folder for serving static files
+# 3.3 Setting Our Public Folder for Serving Static Files
 
 Add a new directory in the root of the project called "public".
 
