@@ -17,7 +17,7 @@ There are a few types on middleware namely:
 
 ---
 
-# 6.2 Application-level middleware
+# 6.2 Application-Level Middleware
 
 This is bound to an instance of the [`app`](../Chapter%202/What%20is%20express.md) object. Here is an **example**.
 
@@ -42,7 +42,7 @@ app.use("/user/:id", (req, res, next) => {
 
 ---
 
-# 6.3 Router-level middleware
+# 6.3 Router-Level Middleware
 
 This functions exactly the same as application-level middleware, except it is bound to an instance of `express.Router()`.
 
@@ -68,7 +68,7 @@ router.use("/user/:id", (req, res, next) => {
 
 ---
 
-# 6.4 Error-handling middleware
+# 6.4 Error-Handling Middleware
 
 As the name suggests, this middleware is used for error handling and is identical to the others except it takes four arguments instead of three (`err`, `req`, `res`, `next`):
 
@@ -81,7 +81,7 @@ app.use((err, req, res, next) => {
 
 ---
 
-# 6.5 Built-in middleware
+# 6.5 Built-in Middleware
 
 Express has the following built-in middleware functions:
 
@@ -116,7 +116,7 @@ Reference:
 
 ---
 
-# 6.7 Validation middleware
+# 6.7 Validation Middleware
 
 Express middleware can be used used to validate a request and return a response with errors; if any of the configured validation rules fail. `express-validation` is a library that does just this.
 
@@ -216,7 +216,7 @@ const UsersRouter = require('./routes/UsersRouter')
 
 ---
 
-# 6.10 Setting up our Photos Route
+# 6.10 Setting Up Our Photos Route
 
 In our PhotosRoute.js file, let's code our CRUD routes that will allow us to create, read, update, and delete photos. 
 
@@ -413,7 +413,7 @@ CommentsRouter.route('/:photoId')
 module.exports = CommentsRouter;
 ```
 
-# 6.11 Testing our Code
+# 6.11 Testing Our Code
 
 Ok so we now have the ability to add photos, right? Well, let's test it.
 
@@ -455,7 +455,7 @@ Also try testing the User routes by creating one and then getting it.
 
 ---
 
-# 6.12 Adding Images to our database from our UI
+# 6.12 Adding Images to Our Database From Our UI
 
 On our `server.js` file, let's add a route to it for our /photos.
 
