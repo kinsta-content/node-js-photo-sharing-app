@@ -1,4 +1,4 @@
-# 10.1 Preparing our Application for production
+# 10.1 Preparing Our Application for Production
 
 Up to this point, we have reached all our goals. The application works as written, but there are a few missing pieces.
 
@@ -12,7 +12,7 @@ Let's fix these problems in this chapter.
 
 ---
 
-# 10.2 Error handling
+# 10.2 Error Handling
 
 Right now if we try to log in with the wrong credentials, we get a time out. Let's fix this. Head over to routes/UsersRouter.js and edit the file with an additional else statment that says "if there is no user, respond in kind"
 
@@ -57,7 +57,7 @@ Now all we have to do is add the following code to our login.ejs inside the cont
 ```
 ---
 
-# 10.3 Adding additional logging with Morgan
+# 10.3 Adding Additional Logging With Morgan
 
 Let's add some additional logging to our application so that we can see all the requests being made on the frontend:
 
@@ -74,7 +74,7 @@ app.use(logger("dev"));
 
 ---
 
-# 10.4 Answering 404 calls
+# 10.4 Answering 404 Calls
 
 In our PageRouter.js file, we need to handle requests that aren't explicitly called out with a simple trick. 
 
@@ -117,13 +117,15 @@ Currently, if you were to take a shell script and change it's extention to .png 
 
 Multer only filters based on file extension and many other mime type checkers are easily fooled. To keep our application safe from unwanted file types, we are going to want to delete bad files from being stored in our file system.
 
-In our `PageRouter.js` on the get request to the `/` path, we will want to automatically clean up all bad files. Since this code is a bit more advanced, you can copy it from Appendix 2 which is linked below this video.
+In our `PageRouter.js` on the get request to the `/` path, we will want to automatically clean up all bad files.
+
+- Since this code is a bit more advanced, you can copy it from [Appendix 2](https://github.com/Kinsta-Academy/node-js-photo-sharing-app/tree/master/Chapters/13%20-%20Appendix%202) which is linked below this video.
 
 Before moving on, we want to delete all images and directories inside of /public/images/.
 
 ---
 
-# 10.6 Preventing overwrite and creating our NPM start command
+# 10.6 Preventing Overwrite and Creating Our NPM Start Command
 
 On our server.js file, we currently have a line that reads `.sync({force:true})` we need it to only alter tables instead of wiping them out everytime the server is restarted, let's remove the `{force:true}`.
 
