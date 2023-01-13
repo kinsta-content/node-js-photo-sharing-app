@@ -64,7 +64,9 @@ brew install mariadb
 brew services start mariadb 
 ```
 
-On Mac you'll need to perform a few tasks to gain access to the database. Please see Appendix 1 section for more details! Link is below the video
+On Mac you'll need to perform a few tasks to gain access to the database.
+
+- Please see [Appendix 1](https://github.com/Kinsta-Academy/node-js-photo-sharing-app/tree/master/Chapters/12%20-%20Appendix%201) section for more details! The link is below the video.
 
 Next, depending on your OS, run the installer and follow the prompts. Enter a difficult but memorable password when prompted to enter a new root password. If you are using Homebrew, you won't be prompted for anything.
 
