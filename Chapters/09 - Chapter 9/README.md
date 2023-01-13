@@ -1,4 +1,4 @@
-# 9.1 Populating our Images on our home page
+# 9.1 Populating Our Images on Our Home Page
 
 Right now, our application only shows the default images that came with html5up.net's Multiverse site/frontend. Let's change that. 
 
