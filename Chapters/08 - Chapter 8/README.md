@@ -118,11 +118,12 @@ We can then go to our application in the browser and see the cookie in action.
 
 Before:
 
-![https://p289.p2.n0.cdn.getcloudapp.com/items/ApuD2XOl/9479ed98-2a8e-49fb-ae7b-1637ae4a80b4.jpg?v=409ba1930cea326d42e23c3af8380e67](https://p289.p2.n0.cdn.getcloudapp.com/items/ApuD2XOl/9479ed98-2a8e-49fb-ae7b-1637ae4a80b4.jpg?v=409ba1930cea326d42e23c3af8380e67)
+![ka-node-jw-8 6-photo-fix3s](https://user-images.githubusercontent.com/9747248/212400262-9bb8831d-c59a-4839-89aa-282791c358bf.png)
 
 Save the file.
 
-![https://p289.p2.n0.cdn.getcloudapp.com/items/Jru89o7B/7f1f9793-641c-46f2-89a3-8867cbb7a156.jpg?v=07768fb1f7bd05f9eb519167e32641e5](https://p289.p2.n0.cdn.getcloudapp.com/items/Jru89o7B/7f1f9793-641c-46f2-89a3-8867cbb7a156.jpg?v=07768fb1f7bd05f9eb519167e32641e5)
+![ka-node-jw-8 6-photo-fix2s](https://user-images.githubusercontent.com/9747248/212399832-ef9d2f17-0c07-4ce0-9520-7bb06574ad94.png)
+
 ---
 
 # 8.3 Implementing User Sessions
