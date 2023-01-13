@@ -24,7 +24,7 @@ Push your code to the repository.
 
 ---
 
-# 11.2 Let's deploy this application!
+# 11.2 Let's Deploy This Application!
 
 If you haven't already, head to https://kinsta.com and create an account.
 
@@ -82,5 +82,7 @@ Update your resume, you did it!
 We covered a lot of material from the basics of npm and we walked all the way through encrypting our passwords. We learned all about middleware, MariaDB, and Express. We built a beautiful application to show off to our friends. Most importantly, we have added new skills to our resume.
 
 Remember, you can get started for free hosting this app, or any app or database on Kinsta's platform. The first twenty dollars during your first month are free.
+
+- [Get Started Now](https://kinsta.com/signup/?product_type=app-db)
 
 They say journey's are alone and adventures are with friends. We have learned a lot in this course together. I want to personally thank you for taking the time out of your busy life to embark on this adventure with me. Until next time!
