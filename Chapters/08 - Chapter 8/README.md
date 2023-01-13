@@ -1,4 +1,4 @@
-# 8.1 Encrypting our passwords
+# 8.1 Encrypting Our Passwords
 
 So we now have a working UI for adding photos, signing up and logging in. But before storing user passwords in the database in real life, we need to encrypt it first. This way, if our database is ever compromised the original passwords are not visible.
 
@@ -15,7 +15,7 @@ const bcrypt = require("bcryptjs");
 const saltRounds = 10;
 ```
 
-With “salt round” they actually mean the cost factor. The cost factor controls how much time is needed to calculate a single BCrypt hash. The higher the cost factor, the more hashing rounds are done. Increasing the cost factor by 1 doubles the necessary time. The more time is necessary, the more difficult it is some someon to figure out a password with a brute-force attack. We are going with 10, while it's larger than probably necessary for such a small application, it isn't big enough to cause any noticeable lag.  Feel free to up it if you like.
+With “salt round” they actually mean the cost factor. The cost factor controls how much time is needed to calculate a single bcrypt hash. The higher the cost factor, the more hashing rounds are done. Increasing the cost factor by 1 doubles the necessary time. The more time is necessary, the more difficult it is some someon to figure out a password with a brute-force attack. We are going with 10, while it's larger than probably necessary for such a small application, it isn't big enough to cause any noticeable lag.  Feel free to up it if you like.
 
 An important note is that this will have zero effect on anything already stored in the database. Let's edit our signup route with `bcrypt`.
 
@@ -186,7 +186,7 @@ PageRouter.get("/photo", (request, response) => {
 
 ---
 
-# 8.4 Conditionally display Add photo, login, signup links
+# 8.4 Conditionally Display Add Photo, Login, Signup Links
 
 The following code will ensure that when we call an if statement looking to see if a user is logged in or not, we can easily in EJS. Place this in your `server.js file` below the the 'expressSession, secret' block we did in 8.2.
 
@@ -255,7 +255,7 @@ it should look like this when it's completed:
 
 ---
 
-# 8.5 Logging out
+# 8.5 Logging Out
 
 Currently, if you click the logout link, you get a `Cannot GET /logout` response. This isn't desirable. Since our login status is determined by a cookie, all we have to do is delete the cookie.
 
@@ -284,6 +284,6 @@ Everything user login related can be really hard if you don't know what you are 
 
 We have learned a ton in this chapter so lets recap.
 
-The first thing we did was ensure that users logging in were storing their passwords securely. They could then login securely by leveraging `bcrypts` compare feature. we put all that together and created some EJS logic to enable our links to only show up when a user was logged in. Speaking of, we learned how to make a user stay logged in using `express-sessions` and then how to destroy that cookie we created in order to log out.
+The first thing we did was ensure that users logging in were storing their passwords securely. They could then login securely by leveraging `bcryptjs` compare feature. we put all that together and created some EJS logic to enable our links to only show up when a user was logged in. Speaking of, we learned how to make a user stay logged in using `express-sessions` and then how to destroy that cookie we created in order to log out.
 
 You're doing great, keep it up! I'll see you in the next chapter where we learn about how to connect comments to a user.
