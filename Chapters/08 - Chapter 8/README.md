@@ -192,7 +192,7 @@ PageRouter.get("/photo", (request, response) => {
 The following code will ensure that when we call an if statement looking to see if a user is logged in or not, we can easily in EJS. Place this in your `server.js file` below the the 'expressSession, secret' block we did in 8.2.
 
 ```js
-global.loggiedIn = null;
+global.loggedIn = null;
 app.use("*", (request, response, next) => {
   loggedIn = request.session.userId;
   next();
