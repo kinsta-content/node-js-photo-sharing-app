@@ -98,7 +98,7 @@ sequelize init
 
 Some new files should be created specifically for sequelize which tries to stick with the MVC model. We don't need migrations and we don't need seeders so let's delete those.
 
-Next, To use sequelize, we first open a connection to the database. In our index.js file, let's write some code:
+Next, To use sequelize, we first open a connection to the database.
 
 Run the following command to access an interactive mysql terminal:
 
