@@ -1,4 +1,4 @@
-# Appendix 3: Installing MariaDb on Windows
+# Appendix 3: Installing MariaDB on Windows
 
 To install MariaDB on a Windows computer, you can follow these steps:
 
