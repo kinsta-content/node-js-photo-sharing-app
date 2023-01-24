@@ -57,6 +57,7 @@ To install MariaDB, visit downloads.mariadb.org, select your operating system (i
 
 If you are on a mac, install following this guide:
 https://mariadb.com/resources/blog/installing-mariadb-10-1-16-on-mac-os-x-with-homebrew/
+
 Basically, the command if you have Homebrew is:
 
 ```bash
