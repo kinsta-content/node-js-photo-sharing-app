@@ -28,7 +28,7 @@ Push your code to the repository.
 
 If you haven't already, head to https://kinsta.com and create an account.
 
-Your first twenty dollars in server resources are free! So you can totally check out the Kinsta platform at no cost in a real-world environment.
+They offer a free trial so you can totally check out the Kinsta platform at no cost in a real-world environment.
 
 Log into my.kinsta.com.
 
@@ -81,7 +81,7 @@ Update your resume, you did it!
 
 We covered a lot of material from the basics of npm and we walked all the way through encrypting our passwords. We learned all about middleware, MariaDB, and Express. We built a beautiful application to show off to our friends. Most importantly, we have added new skills to our resume.
 
-Remember, you can get started for free hosting this app, or any app or database on Kinsta's platform. The first twenty dollars during your first month are free.
+Remember, you can get started for free hosting this app, or any app or database on Kinsta's platform. Get started with a free trials.
 
 - [Get Started Now](https://kinsta.com/signup/?product_type=app-db)
 
