@@ -4,7 +4,8 @@
   "description": "![Photo of course instructor Drew Kerriker](https://user-images.githubusercontent.com/9747248/211838929-cc775833-80fd-4512-a66c-80e332c03da4.png)",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,13 @@
   },
   "homepage": "https://github.com/BBWeb3/node-js-photo-sharing-app#readme",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mariadb": "^3.1.0",
+    "sequelize": "^6.28.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
   }
 }
