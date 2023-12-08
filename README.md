@@ -1,5 +1,3 @@
-![Photo of course instructor Drew Kerriker](https://user-images.githubusercontent.com/9747248/211838929-cc775833-80fd-4512-a66c-80e332c03da4.png)
-
 # Hello!
 
 Learn Node.js by building your own photo sharing application. Your app will have real world functionality including signup, user authentication, photo upload and comments. You’ll learn full stack development skills using: Node.js, npm, Express, EJS, MariaDB, and how to integrate them all together.
